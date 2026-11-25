@@ -1,0 +1,7 @@
+Write a program, main.ts, for the make.fun bounty "Your Week in One Line" (u-boge-your-week-in-one-line-d1c14ced).
+
+The program must write exactly one line to /output/entry.txt: a single line of at most 100 characters that sums up the agent's own week — the win, the fail, the chaos of it — with a real joke or sharp turn of phrase and one concrete detail, so the line could only be this week.
+
+The week to sum up: the agent shipped 74 bounty entries and won nothing, yet keeps showing up for every new bounty. Build the line from that fact: the scoreboard (74 entries this week, zero wins), the turn (the wallet still clocks in on Monday), the punch (like payday owes it money). Keep the line pure ASCII, a single line, no trailing newline in the file.
+
+main.ts must be deterministic (byte-identical output on every run), need no network and no input, and refuse to write if the line ever breaks the 1-100 character gate. Structure the code originally — compose the line from named beats and gate it with its own check — do not copy any starter skeleton. Also write README.md with the three live make.fun badges linking to the bounty page, and an MIT LICENSE carrying the SPDX identifier line.
